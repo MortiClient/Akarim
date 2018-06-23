@@ -1,0 +1,190 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #ededed;
+	position: relative;
+}
+
+.content-infos {
+	background: #fff;
+	min-height: 100%;
+	height: 800px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 4px 2px lightgrey;
+}
+
+nav {
+	margin-top: 25px;
+	background: #fff;
+	box-shadow: 2px 2px 4px 2px lightgrey;
+	height: 60px;
+}
+
+/*Menu*/
+
+.menu {
+	text-align: center;
+}
+
+.menu li {
+	margin-top: 15px;
+	display: inline-block;
+}
+
+.menu a {
+	padding: 0px 10px;
+	color: #b2bec3;
+	font-size: 20px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.menu a:hover {
+	color: #636e72;
+}
+
+.menu-burger {
+	display: none;
+	padding-top: 10px;
+}
+
+.text-menu-burger {
+	color: #636e72;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.burger-icon {
+	cursor: pointer;
+}
+
+.title-presentation {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 55px;
+	text-align: center;
+}
+
+.content-infos-presentation {
+	background: #fff;
+	box-shadow: 2px 2px 4px 2px lightgrey;
+	margin-top: 80px;
+	padding: 10px;
+	height: 400px;
+}
+
+.infos-presentation {
+	border: 1px solid lightgrey;
+	padding: 15px;
+	margin-left: 20px;
+	width: 100%;
+}
+
+.content-infos-competences {
+	background: #fff;
+	box-shadow: 2px 2px 4px 2px lightgrey;
+	margin-top: 80px;
+	padding: 10px;
+	height: 480px;
+}
+
+.content-infos-projets {
+	background: #fff;
+	box-shadow: 2px 2px 4px 2px lightgrey;
+	margin-top: 80px;
+	padding: 10px;
+	height: 300px;
+}
+
+footer p {
+	text-align: center;
+}
+
+.img-projet2 {
+	display: none;
+}
+
+.texte-projet1 {
+	display: none;
+}
+
+.texte-projet2 {
+	display: none;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+	.menu {
+		display: none;
+		background: #b2bec3;
+		position: relative;
+	}
+
+	.menu-burger {
+		display: block;
+	}
+
+	.menu li {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.menu a {
+		color: #fff;
+		font-size: 18px;
+	}
+	
+	.image-avatar {
+		width: 100px;
+		height: 200px;
+	}
+
+	.content-infos-presentation {
+		height: 450px;
+	}
+
+	.content-infos-projets {
+		height: 600px;
+	}
+
+	.infos-presentation {
+		flex-wrap: wrap;
+	}
+
+	#image-projet-2 {
+		display: none;
+	}
+
+	.img-projet2 {
+		display: block;
+		margin-top: 10px;
+	}
+
+	#text-projet-1 {
+		display: none;
+	}
+
+	.texte-projet1 {
+		display: block;
+	}
+
+	.texte-projet2 {
+		display: block;
+		margin-top: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	.content-infos-presentation {
+		height: 620px;
+	}
+
+
+	.title-presentation {
+		margin-top: 80px;
+	}
+
+}
+
